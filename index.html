@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+        <link rel='stylesheet' href='styles.css'>
+        <title>Currency Converter</title>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <h1 class='display-4 text-center mb-3'>Currency Converter</h1>
+                    <form>
+                        <div class='form-group'>
+                            <input id='currencyInput' type='number' class='form-control form-horizontal' placeholder='Enter Amount...'>
+                        </div>
+                    </form>
+                    
+                    <div id='output'>
+
+                        <div class='card-body bg-warning mb-2'>
+                            <div class='card-block'>
+                                <h4>RON:</h4>
+                                <div id='ronOutput'></div>
+                            </div>
+                        </div>
+
+                        <div class='card-body bg-primary mb-2'>
+                                <div class='card-block'>
+                                    <h4>EURO:</h4>
+                                    <div id='euroOutput'></div>
+                                </div>
+                        </div>
+
+                        <div class='card-body bg-success mb-2'>
+                                <div class='card-block'>
+                                    <h4>USD:</h4>
+                                    <div id='usdOutput'></div>
+                                </div>
+                        </div>
+
+                        <div class='card-body bg-danger mb-2'>
+                            <div class='card-block'>
+                                <h4>GBP:</h4>
+                                <div id='gbpOutput'></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src='script.js'></script>
+    </body>
+</html>
