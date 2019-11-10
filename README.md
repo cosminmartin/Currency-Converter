@@ -1,5 +1,7 @@
 # Currency-Converter
-Convert EURO to RON, USD and GBP
+Convert EURO to RON, USD and GBP<br>
 
-Foreign exchange rates API: 
-https://exchangeratesapi.io/
+Foreign exchange rates API: <br>
+https://exchangeratesapi.io/ <br>
+
+![Currency](img/Currency.png)
